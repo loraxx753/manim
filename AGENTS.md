@@ -8,7 +8,7 @@ Scope: this file applies to all work under manim/.
 
 ## Jira
 - Site: https://macovin.atlassian.net (cloudId `a725ab89-81ab-4178-87dd-9b30306a70dd`)
-- Project: `MANIM` (manim) — create in Jira if missing (team-managed software, like HERT/FMS)
+- Project: `MAN` (Manim)
 - Default issue type: Task
 - This project is planned backlog-first: epics, stories, and tasks are
   drafted and approved in chat, then created in `To Do`. Don't start

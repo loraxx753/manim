@@ -26,4 +26,4 @@ manim -ql scenes/hello.py HelloAxes
 
 ## Meanwhile
 
-Work is tracked in Jira project `MANIM` on macovin.atlassian.net. See `AGENTS.md`.
+Work is tracked in Jira project `MAN` on macovin.atlassian.net. See `AGENTS.md`.
