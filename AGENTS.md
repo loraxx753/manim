@@ -23,6 +23,10 @@ Scope: this file applies to all work under manim/.
 - ffmpeg is required for video renders (already on this machine)
 - No TeX yet: prefer `Text` over `MathTex` until a ticket installs LaTeX
 
+## Git
+- Remote: `github.com/loraxx753/manim`
+- Default branch: `main`
+
 ## Working Rules for Agents
 - Scenes live under `scenes/`, one module per topic or experiment.
 - Prefer small, re-renderable scenes over long multi-scene films.
