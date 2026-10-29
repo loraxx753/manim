@@ -21,6 +21,7 @@ Scope: this file applies to all work under manim/.
 - Python 3.9+ with a local `.venv`
 - Manim Community (`manim`), not ManimGL, unless a ticket says otherwise
 - ffmpeg is required for video renders (already on this machine)
+- No TeX yet: prefer `Text` over `MathTex` until a ticket installs LaTeX
 
 ## Working Rules for Agents
 - Scenes live under `scenes/`, one module per topic or experiment.
