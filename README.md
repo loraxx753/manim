@@ -13,7 +13,22 @@ source .venv/bin/activate
 pip install -U pip manim
 ```
 
-Optional later: a TeX install if you want `MathTex` / LaTeX labels.
+### TeX (for `MathTex`)
+
+This machine uses [TinyTeX](https://yihui.org/tinytex/) under `~/Library/TinyTeX` (no sudo). Put its bin dir on `PATH` before rendering:
+
+```bash
+export PATH="$PATH:$HOME/Library/TinyTeX/bin/universal-darwin"
+```
+
+Add that line to `~/.zshrc` (or `~/.bash_profile`) so new shells pick it up. Smoke check:
+
+```bash
+source .venv/bin/activate
+manim -ql scenes/mathtex_smoke.py MathTexSmoke
+```
+
+`Text` still works without TeX for quick labels.
 
 ## Render a scene
 

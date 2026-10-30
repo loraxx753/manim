@@ -21,7 +21,9 @@ Scope: this file applies to all work under manim/.
 - Python 3.9+ with a local `.venv`
 - Manim Community (`manim`), not ManimGL, unless a ticket says otherwise
 - ffmpeg is required for video renders (already on this machine)
-- No TeX yet: prefer `Text` over `MathTex` until a ticket installs LaTeX
+- TeX via TinyTeX at `~/Library/TinyTeX` — put
+  `~/Library/TinyTeX/bin/universal-darwin` on `PATH` (see `README.md`)
+  before rendering `MathTex`. `Text` remains fine for quick labels.
 
 ## Git
 - Remote: `github.com/loraxx753/manim`
